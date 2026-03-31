@@ -9,7 +9,7 @@ st.set_page_config(page_title="Vault Master Control", layout="wide")
 st.title("🛡️ My Trademark Vault: Command Center")
 
 # --- DATABASE PATH ---
-db_path = r'D:\MyTrademarkVault\Data\trademark_leads.db'
+DB_PATH = 'Data/trademark_leads.db'
 
 # --- THE ACTION ROW ---
 st.subheader("🕹️ System Controls")
